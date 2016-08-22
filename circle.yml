@@ -1,0 +1,21 @@
+machine:
+  timezone: Europe/Paris
+
+# Triggered when we push to the master branch
+deployment:
+  release:
+    branch: master
+    commands:
+      - >
+        WOOS_URL=$WOOS_PROD_URL
+        WOOS_PRIVATE_APIKEY=$WOOS_PROD_APIKEY
+        python import.py
+
+# Triggered when we push to the develop branch
+  all:
+    branch: develop
+    commands:
+      - >
+        WOOS_URL=$WOOS_STAGING_URL
+        WOOS_PRIVATE_APIKEY=$WOOS_STAGING_APIKEY
+        python import.py
