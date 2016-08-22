@@ -1,7 +1,12 @@
 machine:
   timezone: Europe/Paris
 
-# manually specify any dependencies
+# This CircleCI config is not built for tests so we simulate them
+test:
+  override:
+    - /bin/true
+
+# To specify any dependencies
 dependencies:
   override:
     - pip install requests
