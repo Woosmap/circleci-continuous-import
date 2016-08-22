@@ -750,6 +750,46 @@
           ]
         }
       }
+    },
+    {
+      "types": [
+        "covered"
+      ],
+      "location": {
+        "lat": 59.336031,
+        "lng": 18.078224
+      },
+      "storeId": "ostermalmssaluhall",
+      "name": "Östermalms Saluhall",
+      "address": {
+        "lines": [
+          "Östermalmstorg"
+        ],
+        "country": "Sweden",
+        "city": "Stockholm",
+        "zipcode": "114 39"
+      },
+      "contact": {
+        "website": "http://ostermalmshallen.se"
+      },
+      "openingHours": {
+        "timezone": "Europe/Stockholm",
+        "usual": {
+          "default": [
+            {
+              "start": "09:30",
+              "end": "19:00"
+            }
+          ],
+          "6": [
+            {
+              "start": "09:30",
+              "end": "18:00"
+            }
+          ],
+          "7": []
+        }
+      }
     }
   ]
 }
