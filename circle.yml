@@ -1,6 +1,11 @@
 machine:
   timezone: Europe/Paris
 
+# manually specify any dependencies
+dependencies:
+  override:
+    - pip install requests
+
 # Triggered when we push to the master branch
 deployment:
   release:
