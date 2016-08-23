@@ -790,6 +790,53 @@
           "7": []
         }
       }
+    },
+   {
+      "types": [
+        "covered"
+      ],
+      "location": {
+        "lat": 51.505757, 
+        "lng": -0.116654
+      },
+      "storeId": "southbankcentrefoodmarket",
+      "name": "Southbank Centre Food Market",
+      "address": {
+        "lines": [
+          "Belvedere Rd"
+        ],
+        "country": "UK",
+        "city": "London",
+        "zipcode": "SE1 8XX"
+      },
+      "contact": {
+        "website": "http://www.southbankcentre.co.uk/",
+        "phone": "+44 20 7960 4200"
+      },
+      "openingHours": {
+        "timezone": "Europe/London",
+        "usual": {
+          "default": [],
+          "5": [
+            {
+              "start": "12:00",
+              "end": "20:00"
+            }
+          ],
+          "6": [
+            {
+              "start": "11:00",
+              "end": "20:00"
+            }
+          ],
+          "7": [
+            {
+              "start": "12:00",
+              "end": "18:00"
+            }
+            ]
+        }
+      }
     }
   ]
 }
