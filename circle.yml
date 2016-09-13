@@ -4,7 +4,7 @@ machine:
 # This CircleCI config is not built for tests so we simulate them
 test:
   override:
-    - /bin/true
+    - python -m json.tool < data.json
 
 # To specify any dependencies
 dependencies:
