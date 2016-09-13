@@ -1,7 +1,7 @@
 machine:
   timezone: Europe/Paris
 
-# This CircleCI config is not built for tests so we simulate them
+# A basic test to validate the JSON data file
 test:
   override:
     - python -m json.tool < data.json
