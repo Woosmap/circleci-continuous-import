@@ -1,5 +1,6 @@
 machine:
-  timezone: Europe/Paris
+  python:
+    version: 2.7.12
 
 # A basic test to validate the JSON data file
 test:
